@@ -1,0 +1,23 @@
+body {
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#exit{
+    font-size: 20px;
+    text-decoration: solid;
+    color: rgb(198, 206, 212);
+}
+
+#carrusel{
+    width: 1470px;
+    height: 205px;
+}
+
+#aa{
+    margin: 10px;
+}
