@@ -34,34 +34,26 @@ a {
     color: black;
 }
 
-h2 {
+h3 {
     text-align: center;
 }
 
 form {
     text-align: center;
-    align-items: center;
 }
 
-input {
+form button {
+    background-color: aqua;
     border-radius: 5px;
-    background-color: #d1d1d1;
 }
 
-button {
-    background-color: aquamarine;
-    padding: 5px;
-    margin: px;
+.add {
+    text-align: left;
+    margin: 30px;
 }
 
-#carrusel {
-    width: 1535px;
-    height: 270px;
-}
 
-img {
-    mask-image: linear-gradient(gold 90%, transparent);
-}
+
 
 .pie {
     margin-top: 20px;

@@ -11,40 +11,31 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body class="bg-dark">
+<body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-gradient">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="Wallet.html">Mi Wallet</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                        <li class="nav-item">
-                            <a class=" navbar-brand nav-link active" aria-current="page"
-                                href="deposito.html">Depositos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class=" navbar-brand nav-link active" aria="page"
-                                href="transferencia.html">Transferencias</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class=" navbar-brand nav-link active" aria="page" href="movimientos.html">Movimientos</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="text-nowrap mx-3 ">
-                <a id="exit" href="#">Cerrar Sesión</a>
-            </div>
+        <h1>Alke-Wallet</h1>
+        <nav>
+            <ul>
+                <li><a href="menu.html">Mi Wallet</a></li>
+                <li><a href="deposito.html">Depositos</a></li>
+                <li><a href="transferencia.html">Transferencias</a></li>
+                <li><a href="movimientos.html">Movimientos</a></li>
+            </ul>
         </nav>
     </header>
-
     <main>
-        
+        <h2>Inicio de sesion</h2>
+        <form id="formulario">
+            <div class="log">
+                <label for="userEmail">Usuario:</label><br>
+                <input type="text" id="userEmail" placeholder="Ingresa tu usuario"><br>
+                <label for="password">Contraseña:</label><br>
+                <input type="password" id="password" placeholder="Ingrese su contraseña"><br>
+                <button type="submit" id="Entrar">Entrar</button>
+            </div>
+        </form> <br>
+        <p id="error"></p>
+
         <section >
             <div id="carouselExample" class="carousel slide ">
                 <div class="carousel-inner" id="carrusel">
@@ -56,7 +47,7 @@
                     </div>
                     <div class="carousel-item">
                         <img src="./assets/img/carrusel3.jpg" class="img-fluid" id="carrusel" alt="imagen3">
-                    </div>
+                    </div>  
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
                     data-bs-slide="prev">
@@ -70,40 +61,16 @@
                 </button>
             </div>
         </section>
-
-
-
-        <div class="container text-white ">
-            <h2 class="m-5 text-center">Login</h2>
-            <form class="fs-5">
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email" placeholder="Ingrese su Email">
-                </div>
-                <div class="form-group">
-                    <label for="password">Contraseña:</label>
-                    <input type="password" class="form-control" id="password" placeholder="Ingrese su Contraseña">
-                </div>
-                <button type="submit" class="btn btn-primary my-3 p-1"><a class="btn btn-primary"
-                        href="Wallet.html">Login</a></button>
-            </form>
-        </div>
     </main>
 
-    <footer class="text-white">
-        <div class="card bg-gradient text-center mt-5">
-            <div class="card-footer">
-                <p class="card-text">@Derechos Reservados por Alke-Wallet</p>    
-            </div>
-            </div>
-        
+    <footer class="pie">
+                <p class="card-text">@Derechos Reservados por Alke-Wallet</p>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-    <script src="./assets/JS/Script.js"></script>
+    <SCript src="./assets/js/login.js"></SCript>
 </body>
 
 </html>

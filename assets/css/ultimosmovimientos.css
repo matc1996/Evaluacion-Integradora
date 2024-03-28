@@ -34,34 +34,13 @@ a {
     color: black;
 }
 
-h2 {
-    text-align: center;
-}
 
-form {
-    text-align: center;
-    align-items: center;
-}
 
-input {
-    border-radius: 5px;
-    background-color: #d1d1d1;
-}
 
-button {
-    background-color: aquamarine;
-    padding: 5px;
-    margin: px;
-}
 
-#carrusel {
-    width: 1535px;
-    height: 270px;
-}
 
-img {
-    mask-image: linear-gradient(gold 90%, transparent);
-}
+
+
 
 .pie {
     margin-top: 20px;
